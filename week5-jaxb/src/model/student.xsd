@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="student" type="student"/>
+
+  <xs:complexType name="student">
+    <xs:sequence>
+      <xs:element name="familyName" type="xs:string" minOccurs="0"/>
+      <xs:element name="fname" type="xs:string" minOccurs="0"/>
+      <xs:element name="id" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
